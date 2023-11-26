@@ -1,0 +1,609 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Formular';
+}
+@font-face{
+    font-family: 'Formular';
+    src: url(fonts/Formular.ttf);
+}
+@font-face {
+    font-family: 'Formular Bold';
+    src: url(fonts/Formular-Black.ttf);
+}
+
+
+/* header  all*/
+
+
+header{
+    margin: 0 auto;
+    padding-bottom: 24px;
+    gap: 24px; 
+    background-color: #f9fafb;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* logo  */
+
+
+.first{
+    padding-top: 24px;
+    width: 1536px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.first .logo{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.first h1{
+    font-family: 'Formular Bold';
+    font-size: 24px;
+    line-height: 32px;
+}
+
+
+/* contact info */
+
+
+.rightbar{
+    display: flex;
+    align-items: center;
+}
+
+.first__bar{
+    display: flex;
+    border-right:2px solid #A78BFA;
+
+}
+
+.first__bar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 12px;
+}
+
+
+/* telephone */
+
+
+.phone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 12px;
+}
+
+.phone h1{
+    font-family: 'Formular Bold';
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.phone p{
+    font-family: 'Formular';
+    font-size: 24px; 
+}
+
+
+/* menu */
+
+
+.links{
+    margin: 0 auto;
+    width: 1536px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links ul{
+    display: flex;
+    list-style-type: none;
+    gap: 24px;
+}
+
+.links li{
+    display: flex;
+    align-items: center;
+}
+
+.links li:hover{
+    color: #8B5CF6;
+    cursor: pointer;
+}
+
+.links .zayavka{
+    display: flex;
+    padding: 10px 28px;
+    justify-content: center;
+    border-radius: 8px;
+    gap: 4px;
+    font-size: 16px;
+    color: white;
+    align-items: center;
+    background: var(--purple-500, #8B5CF6); 
+}
+
+
+/* ------------------------main------------------ */
+
+
+main{
+    align-items: center;
+    background-color:#E5E7EB;
+    padding-top: 80px;
+}
+
+.reklama{
+    margin: 0 auto;
+    height: 584px;
+    display: flex;
+    width: 1536px;
+    gap: 24px;
+}
+
+.pressa{
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 0 0; 
+}
+
+.pressa h1{
+    font-family: 'Formular Bold';
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 36px;
+}
+
+.pressa p{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.calc{
+    display: flex;
+    padding: 23px 27px;
+    gap: 28px;
+    width: 756px;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch; 
+    background-color: #fff;
+    border-radius: 16px;
+}
+
+.head{
+    display: flex;
+    width: 370px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head h1{
+    gap: 16px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 5px;
+}
+
+.head p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+
+    
+}
+
+.forms{
+    align-items: center;
+    display: block;
+    width: 476px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.forms form {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.forms form input{
+    width: 200px;
+    height: 20px;
+    padding: 12px;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+
+.forms form #shir{
+    width:472px;
+}
+
+.forms button{
+    display: flex;
+    justify-content: center;
+    padding: 10px 28px;
+    align-items: center;
+    border-radius: 9px;
+    background: #8B5CF6;
+    width: 476px;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 28px;
+}
+
+
+.pluses {
+    width: 1537px;
+    margin: 0 auto;
+    margin-top: 72px;
+}
+
+.pluses h1{
+    text-align: center;
+    font-family: 'Formular Bold';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 36px;
+}
+
+.pluses p{
+    font-family: 'Formular';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.catalog {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 42px;
+    align-self: stretch;
+    flex-wrap: wrap; 
+}
+
+.item {
+    display: flex;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+
+.item .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    flex: 1 0 0; 
+}
+
+.item .text h2{
+    text-align: left;
+}
+
+.garantii{
+    width: 1536px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 76px;
+    align-items: center;
+    justify-content: center;
+    gap: 36px; 
+}
+
+.garantii .text{
+    padding-left: 45px;
+    display: flex;
+    width: 756px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch; 
+}
+.garantii .text h1{
+    font-family: 'Formular Bold';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 36px;
+    justify-content: center;
+}
+.garantii .text .p{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.garantii .text p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.doks{
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    gap: 24px;
+    align-self: stretch;
+    flex-wrap: wrap; 
+    padding: 20px;
+    margin-left: 20px;
+}
+.dokuments{
+    display: flex;
+    width: 350px;
+    margin-left: 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px; 
+    text-align: center;
+}
+.documents h3{
+    gap: 4px;
+    font-family: 'Formular Bold';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px;
+}
+.button{
+    width: 1536px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 34px;
+
+}
+.button button{
+    width: 315px;
+    height: 56px;
+    padding: 16px 28px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px; 
+    border-radius: 12px;
+    background: var(--purple-500, #8B5CF6); 
+    color: white;
+    font-family: Formular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 24px;
+}
+
+.otzivy{
+    width: 1536px;
+    margin: 0 auto;
+    margin-top: 72px;
+    gap: 47px;
+    padding: 0 23px 0 23px;
+}
+.otzivy h1{
+    text-align: center;
+}
+.otzivy img{
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0; 
+}
+
+.reviews{
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+    gap: 23px;
+    
+}
+
+.review{
+    justify-content: center;
+    width: 626px;
+    padding: 32px 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    border-radius: 16px;
+    background: #f9fafb;
+}
+.review img{
+    float: right;
+    position: absolute;
+    right: 18px;
+    bottom: 8px; 
+}
+.review p{
+    width: 540px; 
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+.review .author{
+    
+    margin-top: 30px;
+    text-align: left;
+    color: #6B7280;
+    font-family: Formular;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px
+}
+
+
+
+.questions{
+    display: flex;
+    width: 1536px;
+    margin: 0 auto;
+    margin-top: 72px;
+    padding: 64px 64px 64px 64px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px; 
+    background: white;
+    border-radius: 16px;
+}
+
+
+.questions .formes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+    width: 497px;
+    flex-wrap: wrap;
+
+}
+.formes{
+    align-items: center;
+    display: block;
+    width: 476px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formes form {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.formes form input{
+    width: 236px;
+    height: 20px;
+    padding: 12px;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+
+.questions .formes #big{
+    display: flex;
+    width: 497px;
+    height: 150px;
+    padding: 12px;
+    align-items: flex-start;
+    gap: 4px;
+    flex-shrink: 0; 
+}
+
+
+
+
+footer{
+    background: var(--gray-900, #111827); 
+    color: white;
+    padding-top: 40px; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px; 
+}
+
+
+
+.infoFoot{
+    width: 1536px;
+    margin: 0 auto;
+}
+
+.infoFoot .firstFoot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+
+.logoFoot{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.logoFoot .copy{
+    display: flex;
+    justify-content: start;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    width: 100%;
+}
+.linksFoot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.linksFoot ul{
+    display: flex;
+    list-style-type: none;
+    gap: 24px;
+}
+
+.linksFoot li{
+    display: flex;
+    align-items: center;
+}
+
+.linksFoot li:hover{
+    color: #8B5CF6;
+    cursor: pointer;
+}
+
+footer .info{
+    width: 1536px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-self: stretch; 
+}
+
+footer .info .p{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px;
+}
